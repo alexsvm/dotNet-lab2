@@ -40,7 +40,7 @@
             // 
             this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.button1.DialogResult = System.Windows.Forms.DialogResult.OK;
-            this.button1.Location = new System.Drawing.Point(36, 218);
+            this.button1.Location = new System.Drawing.Point(36, 215);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(130, 23);
             this.button1.TabIndex = 4;
@@ -51,7 +51,7 @@
             // 
             this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.button2.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.button2.Location = new System.Drawing.Point(229, 218);
+            this.button2.Location = new System.Drawing.Point(220, 215);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(130, 23);
             this.button2.TabIndex = 5;
@@ -94,13 +94,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(393, 264);
+            this.ClientSize = new System.Drawing.Size(384, 261);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
+            this.MinimumSize = new System.Drawing.Size(400, 300);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
